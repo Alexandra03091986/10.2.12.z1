@@ -16,6 +16,7 @@ def calculate_taxes(prices: list[float], tax_rate: float) -> list[float]:
 
 
 def calculate_tax(price: float, tax_rate: float) -> float:
+    ''' Функция должна вычислять стоимость товара с учетом налога и возвращать результат (float).'''
 
     if price < 0:
         raise ValueError("Неверная цена")
